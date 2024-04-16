@@ -1,8 +1,8 @@
 function validate(){
-    const mail = document.getElementById("mail")
+    const email = forms["form1"]["email"].value;
     const password = document.getElementById("password")
 
-    if(mail.value==""){
+    if(email==""){
         alert("Please provide a username or password")
         document.form1.name.focus()
         return false
